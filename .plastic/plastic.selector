@@ -1,4 +1,4 @@
-repository "SurgiVerse/SurgiVerse 2025-10-13_13-49-57@11270617557376@cloud"
+repository "SurgiVerse/SurgiVerse@11270617557376@cloud"
   path "/"
     br "/main"
     co "/main"
