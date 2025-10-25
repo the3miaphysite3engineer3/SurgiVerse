@@ -208,15 +208,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7a64e001f9c8cf94381a0d157bb6abc8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.773
+      value: -1.778
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7a64e001f9c8cf94381a0d157bb6abc8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.187
+      value: 1.186
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7a64e001f9c8cf94381a0d157bb6abc8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.421
+      value: -2.424
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7a64e001f9c8cf94381a0d157bb6abc8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -621,7 +621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3c8c6d2f4f677047b4dc8953c8f52a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.485
+      value: -1.466
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3c8c6d2f4f677047b4dc8953c8f52a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1763,7 +1763,7 @@ Transform:
   m_GameObject: {fileID: 950695991}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7055772, z: -0, w: 0.7086331}
-  m_LocalPosition: {x: 2.33, y: 0.565, z: 0.22}
+  m_LocalPosition: {x: 2.334, y: 0.565, z: 0.22}
   m_LocalScale: {x: 1, y: 1, z: 1.5766}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1791,7 +1791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cf46b691a5b3edb4db566e3501961f76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.63396716
+      value: -0.677
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cf46b691a5b3edb4db566e3501961f76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2878,7 +2878,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fc17caaf495d37246942c074f9749c43, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.702
+      value: -0.709
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc17caaf495d37246942c074f9749c43, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2886,7 +2886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc17caaf495d37246942c074f9749c43, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.369
+      value: 1.368
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc17caaf495d37246942c074f9749c43, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3985,7 +3985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 0bc49891eb7f85449be3814a10d96a7d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.44
+      value: -2.424
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 0bc49891eb7f85449be3814a10d96a7d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4516,7 +4516,7 @@ Transform:
   m_GameObject: {fileID: 3008279942767242291}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0015276707, y: -0.7072289, z: -0.70698136, w: 0.0015279978}
-  m_LocalPosition: {x: 1.9, y: 1.07, z: 0.11}
+  m_LocalPosition: {x: 1.929, y: 1.07, z: 0.11}
   m_LocalScale: {x: 157.98, y: 157.97998, z: 157.97998}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4850,7 +4850,7 @@ Transform:
   m_GameObject: {fileID: 742671693209236879}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000008421905, y: -0.04212576, z: -0.0000000035508951, w: -0.9991123}
-  m_LocalPosition: {x: 2.923316, y: 1.06918, z: -0.2697811}
+  m_LocalPosition: {x: 2.902, y: 1.06918, z: -0.268}
   m_LocalScale: {x: 0.0020000008, y: 0.0019999999, z: 0.0020000006}
   m_ConstrainProportionsScale: 0
   m_Children:
