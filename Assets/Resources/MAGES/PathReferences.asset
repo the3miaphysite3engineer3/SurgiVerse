@@ -1,0 +1,1293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1510659650, guid: 1c1a21e1309d25de02b27da979cbb376, type: 3}
+  m_Name: PathReferences
+  m_EditorClassIdentifier: 
+  gameObjectToPath:
+    serializedData:
+    - Key: {fileID: 225065192154436742, guid: ba2e877f81ae13c408a532e07de23539, type: 3}
+      Value: Assets/Resources/Actions/New Action/New Action_FinalPosition.prefab
+    - Key: {fileID: 3755785643997906370, guid: c1bef6ed652b053428eec151c1d29681, type: 3}
+      Value: Assets/Resources/Actions/New Action/New Action_InsertObject.prefab
+    - Key: {fileID: 908942595246231463, guid: a361a3293222e28499db2e161eeebd67, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+    - Key: {fileID: 3033575757623623128, guid: 3902a40383991d54fbc8143121103016, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/Cube.prefab
+    - Key: {fileID: 4978528055132887265, guid: fea31c6cbd5f72b4aa69a72f8bf0d9ad, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/CharacterCustomizationCanvasEmpty.prefab
+    - Key: {fileID: 3089517475026802293, guid: a96a0359008a97a4591e2e36a661bcdd, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/NetworkingUIEmpty.prefab
+    - Key: {fileID: 4109372207747810125, guid: 83eb887314b6afa42ac27d8d3c079735, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/OperationExitEmpty.prefab
+    - Key: {fileID: 7536069314546168663, guid: a3f8676805defc146b499ac64903174d, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/OperationStartEmpty.prefab
+    - Key: {fileID: 2775463711314371571, guid: ead8fc7302d200d49ba634994d26e0b6, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/Session
+        Progress UI Empty Scene.prefab
+    - Key: {fileID: 8698933811779068700, guid: 851a201544c411549a0eee423bfaa909, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/SessionOverviewEmpty.prefab
+    - Key: {fileID: 8482891306298584424, guid: 9db860b120b44c7419435384247047a0, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/SessionOverviewEmptyScene.prefab
+    - Key: {fileID: 8896514072412807715, guid: 925a0e7d2f0be3b4ea86b863682f6f09, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/UICreateSessionEmpty.prefab
+    - Key: {fileID: 927456759022537861, guid: 2ab1651da1e5b344ca69e71609b408e6, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/UILicenseRequestEmpty
+        Variant.prefab
+    - Key: {fileID: 1712265545480742366, guid: 2f29532ddc09aa24db159404463bdebe, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/Sphere.prefab
+    - Key: {fileID: 9004627945310949098, guid: 8020e62fd55e5e546809f3b2cc669591, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/AgentSubtitles.prefab
+    - Key: {fileID: 4743386948377889960, guid: 97853d6cfc44651408bc3d168b73f223, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/Embodiment
+        Pharmacist.prefab
+    - Key: {fileID: 386611320603512278, guid: 6d9aef72570a0754c86ee69e9b3e88e0, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/InteractionButtons.prefab
+    - Key: {fileID: 8998203555960311489, guid: d156902881002144a994ca66357e759b, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/UserSubs.prefab
+    - Key: {fileID: 274834455300494915, guid: f647e0596d0b2f04f8bac5278abf1e48, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Anesthesia
+        Machine.prefab
+    - Key: {fileID: 744736389616575715, guid: 69001e7bd43561b47b9b8ac4e0650d38, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Bed.prefab
+    - Key: {fileID: 3977466340269936675, guid: 6567c6f48fc92e7418eb4a702690f4ea, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Bins.prefab
+    - Key: {fileID: 2109615334056787212, guid: 8325721b2c5b34aa58291286cb229054, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/CameraMonitor.prefab
+    - Key: {fileID: 2321836903883903618, guid: a2c91790bf04ceb41a7b480ebef45803, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Cloths.prefab
+    - Key: {fileID: 4946512929276362326, guid: 6f17acc16a3f5314f8e713856d34e11e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Model.prefab
+    - Key: {fileID: 2370728055000150416, guid: aa715c5070542d942a26b016a793790b, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Neuromonitoring
+        Device.prefab
+    - Key: {fileID: 3482067835645260641, guid: a19ca16ff3689c94a9a0b2e781c89552, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/OR
+        Room.prefab
+    - Key: {fileID: 4932529463223172324, guid: da80cf03e773d164fb7b4bb8b358f9dc, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Thyroid.prefab
+    - Key: {fileID: 6646874893661125551, guid: 07120d58b41de4b4a835d367d85e7421, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Tools
+        Table.prefab
+    - Key: {fileID: 6472816218337681979, guid: 3b36b964349749e43a9ff283c9e13ee9, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/TV
+        Stand.prefab
+    - Key: {fileID: 4785021017601545401, guid: 38e178a7031c87449b1f13f0ba2a628f, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/CharacterCustomizationCanvasNeuromonitoring.prefab
+    - Key: {fileID: 1050945768559797074, guid: 74f6c06942933644b9f932dfa5e882fa, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/MessageHandler
+        Variant.prefab
+    - Key: {fileID: 4833967582343304180, guid: 6967f6d278699af44995128a068a31e1, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/NetworkingUINeuromonitoring.prefab
+    - Key: {fileID: 3178385913491038418, guid: c16b3b40e95146f449dcf0ab37194030, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/OperationExitNeuromonitoring.prefab
+    - Key: {fileID: 4492104066286569169, guid: 2557b43d804fea24f8d54b92e3d6fb4e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/OperationStartNeuromonitoring.prefab
+    - Key: {fileID: 2033874574120215878, guid: 28d6597d32430284bb43338c7c88910c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/Session
+        Progress UI.prefab
+    - Key: {fileID: 3049240401903096141, guid: 52c2731d26fb0234896b85be69b707fb, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/SessionButton.prefab
+    - Key: {fileID: 5758089130870469234, guid: 021fb9832f6d2ce428e3d04f6e4c5125, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/SessionOverviewNeuromonitoring.prefab
+    - Key: {fileID: 7996544514617639481, guid: e4b0acd34a4dce34fa03f8e3e136c52b, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/UICreateSessionNeuromonitoring.prefab
+    - Key: {fileID: 4382171837768430930, guid: 795e8426a01f8ed4e8d9877327d9625e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/UILicenseRequestNeuromonitoring
+        Variant.prefab
+    - Key: {fileID: 3106467328041456279, guid: 6c2b406a3305cd348a2f6fe74bc90ea5, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/CervicalIncisionLineFat.prefab
+    - Key: {fileID: 3652687603687262894, guid: e4c6a01c29fa5ca40ac22067f75db4be, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/CervicalIncisionLineSkin.prefab
+    - Key: {fileID: 2967921607362357774, guid: 52b77fe12cc7d684682267a673a62300, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/ColliderNeckLeftRight.prefab
+    - Key: {fileID: 8834962208106310673, guid: 7c9e0f2b409da474286d9e3ba90eacbe, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/Ghosts/CervicalIncisionFatGhost.prefab
+    - Key: {fileID: 9082255591674553558, guid: 427cbb1034ac3bd419eb0f233967eb9f, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/Ghosts/CervicalIncisionSkinGhost.prefab
+    - Key: {fileID: 4304539326624782717, guid: 9423eae4eca1b8540bbdd459a2cc5b56, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/IncisionPoint.prefab
+    - Key: {fileID: 869576187184013667, guid: b1e7c7cd1bbe3804584574fe349fbda4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/Ghosts/SubplatysmalFlapIncisionGhost.prefab
+    - Key: {fileID: 1185499287217697570, guid: d27f457ac1e1bae429d5144e470d9336, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/Retractors.prefab
+    - Key: {fileID: 4311455448986213648, guid: c1a11b15198713b4b8f935f24d1a95b0, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/SubplastimalFlapIncision.prefab
+    - Key: {fileID: 442926427273164419, guid: 8e222125c63083e47ae0fb089bc6e86e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/Ghosts/MidlineIncisionGhost.prefab
+    - Key: {fileID: 6618047273808467479, guid: ec6a744c982629d49b55274d224fbb24, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/Ghosts/MoveThyroidIncGhost.prefab
+    - Key: {fileID: 5837668475963317154, guid: 5f55466e36db076478fcdeb62e53e547, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/MidlineIncision.prefab
+    - Key: {fileID: 2522567355692836225, guid: b68c8209ace9dd94d851baede4612fd3, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/MoveThyroidIncision.prefab
+    - Key: {fileID: 4866848991011600175, guid: 4098e4b8b86a7314f9db101004c9721b, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/Ghosts/OpenCarotidSheathGhost.prefab
+    - Key: {fileID: 5824571997599722994, guid: 6f4d0c90496b89f4e95fb5f2c6e778ff, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/IncisionPointSmall.prefab
+    - Key: {fileID: 6259627800914656854, guid: 6540bfd56b92c1a48b622ddc59fb2edd, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/OpenCarotidSheath.prefab
+    - Key: {fileID: 8376149236662713454, guid: 217166eb7bf693c4daada3cbe78c8d2c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/Ghosts/NerveDissectionNerveGhost.prefab
+    - Key: {fileID: 8882882472010278157, guid: 9a1ce5c70a1f10a4eb3bf3335497cce2, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/Ghosts/NerveDissectionVeinGhost.prefab
+    - Key: {fileID: 6499904438441535340, guid: 1e53ed247c8b6be40a8c94c80616bc0c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/NerveDissectionNerve.prefab
+    - Key: {fileID: 250314427978897130, guid: 2e21ad05663dcc44280a3a8429442854, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/NerveDissectionVein.prefab
+    - Key: {fileID: 7890472894898043225, guid: d503b650d45846445bca289f3d1b8258, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A6/DissectorFinal.prefab
+    - Key: {fileID: 7916718058165998299, guid: 796d5b0ab12204472a352ef40fbe5fee, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A6/PutDissectorUnderVagalNerveGhost.prefab
+    - Key: {fileID: 4856596307948927536, guid: 37f95d971e32b31498a3e68d4c5864bf, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeDummy.prefab
+    - Key: {fileID: 7547621127353562581, guid: 3592879b5359b1f4ea5abc8b09a5c172, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeFinal.prefab
+    - Key: {fileID: 1540177806988761400, guid: 1899a80dd682c3647937517cc7a65f74, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeInsertionMotion/ElectrodeInsertMotionGhost.prefab
+    - Key: {fileID: 1558369533434093067, guid: 93b7d3417dfa3714cb4ba02e191d4b54, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeInteractable.prefab
+    - Key: {fileID: 3894055870524528594, guid: 2e3ac003cbb9f624bbf6b8c9a7721402, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/Floor.prefab
+    - Key: {fileID: 5221497364605293871, guid: be7fef17023247b4c8080db001ff34f5, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/Nerve
+        Colliders.prefab
+    - Key: {fileID: 3758902012534190580, guid: 1c55a6dc4dfb0d347a38fed103ea3456, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Anatomical
+        Forceps/Anatomical Forceps.prefab
+    - Key: {fileID: 5119610509586384834, guid: be8cefe75aeda504483e2f1bde4d3836, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Bipolar/Bipolar.prefab
+    - Key: {fileID: 8478563564662122156, guid: 6411a072fafe3154e972d66a9ddb84e6, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Dissector/Dissector.prefab
+    - Key: {fileID: 4290284821930743728, guid: a076bc9d56e640547be1635667d0bf13, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Electrode/Electrode.prefab
+    - Key: {fileID: 7094279836168780611, guid: def8247e8eaab254483c076ad43a46e7, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Ligasure/Ligasure.prefab
+    - Key: {fileID: 3120486536624300502, guid: e8e991cf6f525a5449b85243a93db29e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Monopolar/Monopolar.prefab
+    - Key: {fileID: 1745903936454484607, guid: 0847f0a2152a9be44bbf70c624e3f71a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Scalpel/Scalpel.prefab
+    - Key: {fileID: 2696498493535581949, guid: 1e0284041cb858c4a86b1e6681bf3f54, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Scissor/Scissor.prefab
+    - Key: {fileID: 2628784455713558752, guid: c43fb0affeaa19d4895c8b1638098374, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Bed/Bed.prefab
+    - Key: {fileID: 919132149155446097, guid: 838a33c639b24184fa43b5e9732b496c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Bed/Neuromonitoring_Bed.fbx
+    - Key: {fileID: 919132149155446097, guid: 57165309ea8481c4097729ed5090fcb0, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Cloths/Neuromonitoring_Cloths.fbx
+    - Key: {fileID: 859781037738657336, guid: 2368c57d3e3dc3744961d16049884065, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Anesthesia/Anesthesia
+        Machine.prefab
+    - Key: {fileID: 919132149155446097, guid: 2c4c24379cb075b48924a4cf1bd75734, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Anesthesia/Neuromonitoring_Anesthesia.fbx
+    - Key: {fileID: 919132149155446097, guid: 30a6b6f2efd88e44cb7ea115e13c72bf, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Neuromonitoring/neuromonitoring_device.fbx
+    - Key: {fileID: 9117576686298392004, guid: 61d233a960bfcf645a4053827b73d76c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Neuromonitoring/neuromonitoring_device.prefab
+    - Key: {fileID: 919132149155446097, guid: 5b72391a7a2f55d42b2118bdce6eaaf1, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Bins/Bins.FBX
+    - Key: {fileID: 6149354378354043843, guid: a4eb8f88aa0bba3419a971a3083da8b3, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/Ceiling Lamp.prefab
+    - Key: {fileID: 919132149155446097, guid: 712d201c9376e1b48917380a90bbc227, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/ceiling_lamp.fbx
+    - Key: {fileID: 1803116528797123722, guid: 5073f9085f9cc3a408dd35ab2b983ecc, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/LampsBloom/Lamps Bloom.prefab
+    - Key: {fileID: 4480446767556282789, guid: 23696861c744db44ba7ef04e03ed222c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Screen/CameraMonitor.prefab
+    - Key: {fileID: 919132149155446097, guid: 55aa2a51d602bb544b8bfcea2c098fb4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Screen/ceiling_screen.fbx
+    - Key: {fileID: 919132149155446097, guid: 032f11cebf8f12c47a0a66f5b6a766a0, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Saline
+        Stand/saline stand.fbx
+    - Key: {fileID: 7354347938907152422, guid: cc218f808d6cf094e9473f27d20667d2, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Saline
+        Stand/saline stand.prefab
+    - Key: {fileID: 919132149155446097, guid: d99597f64ce62934881da8f915eb365e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/ToolTable/ToolTable.fbx
+    - Key: {fileID: 919132149155446097, guid: 5f3b5a73267636e42bf0c6a86f9d1430, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Pharmacist/Jaria.fbx
+    - Key: {fileID: 2271095568271594960, guid: aabfcfd94873643d99f2ca5b94e11a54, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Pharmacist/VickyMask.prefab
+    - Key: {fileID: 919132149155446097, guid: 555875bc04e99d14b83fbab5c42edffe, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Room/ORRoom_Edit.fbx
+    - Key: {fileID: 919132149155446097, guid: 25596c47e24387b42b907638fac6593f, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Thyroidectomy/Thyroidectomy_Demo.fbx
+    - Key: {fileID: 4444822991818829087, guid: dda25c42fff5a374d92853c974e50580, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Thyroidectomy/Thyroidectomy_Demo.prefab
+    - Key: {fileID: 919132149155446097, guid: 304c7a96e6eb16148931c670a44fbec8, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Anatomical
+        Forceps/anatomical forceps.fbx
+    - Key: {fileID: 919132149155446097, guid: 5522251be74ce1144bbef4b89eeb003a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Bipolar/Bipolar.fbx
+    - Key: {fileID: 919132149155446097, guid: fea2ae735d4a0c247a2422e329e9d31d, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Dissector/Dissector.fbx
+    - Key: {fileID: 919132149155446097, guid: 96d9a4dd8fd62cc4d9dc9339510c0afb, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Electrode/electrode
+        static/electrode static.fbx
+    - Key: {fileID: 919132149155446097, guid: 44b4abe3fc7a86d42959635af82668f8, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Electrode/Electrode.fbx
+    - Key: {fileID: 919132149155446097, guid: 3bd9fa76b1d683a4e924f6c419b8e19f, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Ligasure/Ligasure.fbx
+    - Key: {fileID: 919132149155446097, guid: 5a33ccc244a5bff4e939d4d0613663b2, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Monopolar/Monopolar.fbx
+    - Key: {fileID: 919132149155446097, guid: a855538333ba5f648a0914dc5bc28422, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Retractor/Retractor.fbx
+    - Key: {fileID: 919132149155446097, guid: 0073dd6107330f245aacd589fc1488cd, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scalpel/Scalpel.fbx
+    - Key: {fileID: 8624499381459777109, guid: 06b0a6ad3384ab64dbe3af11a3f1692f, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scalpel/Scalpel.prefab
+    - Key: {fileID: 919132149155446097, guid: f5f1afbdf53764f4e8fadf14f89c5ef4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scissor/Scissor.fbx
+    - Key: {fileID: 919132149155446097, guid: c8e109cfe57f86a4181cc9099180ffa3, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/TV/TV_stand.fbx
+    - Key: {fileID: 1050945768559797074, guid: b2718303e696afb4a9b79fd28da2d2a8, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+    - Key: {fileID: 4461789498622482572, guid: 214f32cebf2941a45be83ac5ea8160ef, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Alcohol_Bottle/Alcohol_Bottle.prefab
+    - Key: {fileID: 2663334325131598747, guid: 128bc55980bc2644a97fe5bc205ea02e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Alcohol_Spray/Alcohol_Spray.prefab
+    - Key: {fileID: 8151967033735030569, guid: b7c6043b6b1aa0d43ac7c3329ef5b890, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/BinArea/BinArea.prefab
+    - Key: {fileID: 5029598878369790566, guid: 67ea4c8f7702408468661a1781998541, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ChoiceUI.prefab
+    - Key: {fileID: 2703683730839687794, guid: 50c425b866ac9f2449e7c24720181685, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/PliersCotton.prefab
+    - Key: {fileID: 2647042785146455674, guid: be56c30b28a6f9b4ab5118912d77f46e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelFinal.prefab
+    - Key: {fileID: 1443599125608375782, guid: 0d1928f900b789c45a0cf275ea50444a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelGhost.prefab
+    - Key: {fileID: 7288135389853464270, guid: 8ce959eeb23c9de4aa83a0789159fa88, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/SterilizeAreaCollider.prefab
+    - Key: {fileID: 6811890992725081840, guid: 2d19969147df51a499fe3cd13ddb040b, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Cotton_Ball/Cotton_Ball.prefab
+    - Key: {fileID: 4675479889605947690, guid: f59dabde098374045b184073686ff8e6, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Cupboards/HandPoses/Cupboard.prefab
+    - Key: {fileID: 5334127861141958002, guid: 668f16e2d3bf3d143a296dbd56bc6b76, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/DisinfectArea/DisinfectArmColldier.prefab
+    - Key: {fileID: 8039857778618746083, guid: e1765c35a92cf464c9959d7ba1498552, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/CutLine.prefab
+    - Key: {fileID: 7833148477243739317, guid: 5f882da6271bad54784a066ead6e34e4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/Scalpel.prefab
+    - Key: {fileID: 3765945099689444981, guid: 5d363e2a0bab66f4584722d7efd02201, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FloorCollider.prefab
+    - Key: {fileID: 4177023108984992685, guid: ceac3ce2e2eb35745bfa7298cb49236a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/CharacterCustomizationCanvasMedical.prefab
+    - Key: {fileID: 7585984475247021264, guid: 2a59910a6dfe4684eaff94009a5f4620, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/NetworkingUIMedical.prefab
+    - Key: {fileID: 8492081981966568934, guid: 80be6f865405a3c4ab211bd19c26cdd8, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/OperationExitMedical.prefab
+    - Key: {fileID: 6806514524355455648, guid: 212eb4c57a8af914c8c64d215ad64056, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/OperationStartMedical.prefab
+    - Key: {fileID: 3037877771287912141, guid: 4cd6f56b9d0ee74419f0a18c50343d16, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/PlayerSelectionUI
+        Variant.prefab
+    - Key: {fileID: 3690071554826833225, guid: d3da0a1c18b1aaa4996425660f6dc663, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/SessionOverviewMedical.prefab
+    - Key: {fileID: 1061030109764770952, guid: 6b78343f46d576e44ae174a3c020e61e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/UICreateSessionMedical.prefab
+    - Key: {fileID: 3887150759044816649, guid: 5ff7919668ec3594b9bf11d50ad992b4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/UILicenseRequestMedical
+        Variant.prefab
+    - Key: {fileID: 4607341748483080585, guid: bd177487123c5e84bbb9c3df6e71421d, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Medicine_Bottle/Medicine_Bottle.prefab
+    - Key: {fileID: 8348530338071273550, guid: fcfc76b1b36f2c9449beb531b560a314, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/SmallTray/Tray.prefab
+    - Key: {fileID: 8919781291093236745, guid: 80a4e740ebf83d848a3e11920a919a1c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeAdminister.prefab
+    - Key: {fileID: 8782387715358882742, guid: 6f9e4579a9c818346ae420b92a5061cf, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeFinal.prefab
+    - Key: {fileID: 4821283478671805728, guid: 435aa8ea7776f7d4fa1f9a9d9ab3f116, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeInteractable.prefab
+    - Key: {fileID: 4044804350837727676, guid: ccc56b4a32cb1a94196d31d41638fd36, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/TV_Stand.prefab
+    - Key: {fileID: 919132149155446097, guid: 9e1c97fc44f9a8744b61b58f72c56de4, type: 3}
+      Value: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+    - Key: {fileID: 1153602445894428, guid: cf6cbdd672089a84796e55a21fed1cbe, type: 3}
+      Value: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
+    - Key: {fileID: 1822588063230394, guid: f6b1a0fe75d5009449cf55ae76220e2b, type: 3}
+      Value: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab
+    - Key: {fileID: 919132149155446097, guid: 39857cfad1651644682ff5b772e6e697, type: 3}
+      Value: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+    - Key: {fileID: 7918437720397152765, guid: cf30a5f67c570a544b4a378d2853c6f1, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/BodyTitleContentElement.prefab
+    - Key: {fileID: 4387796791817745772, guid: c7fedcf735aceb7409af04a4a2e88a6a, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/ContentElement.prefab
+    - Key: {fileID: 7647174366928024817, guid: d7cf3cb20981ddb4fba9215a72500342, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/MainBodyExtension.prefab
+    - Key: {fileID: 6308268119750500836, guid: a890431e34b61fd4fbec937509b0ae6e, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/ObjectiveContentElement.prefab
+    - Key: {fileID: 9193793702781515264, guid: 96dda1ee8a558f840999e4af5e617dcb, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/ScoringContentElement.prefab
+    - Key: {fileID: 388323136796710587, guid: 5125c1c132c55d94291b873fba9fca8f, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/ScrollButton.prefab
+    - Key: {fileID: 8730845616018260060, guid: d0028272aad4fa74ba9935f92d4826b3, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/SessionOverview.prefab
+    - Key: {fileID: 7351949962191370175, guid: d6b912a571846fa4591b3d412fbbcb2b, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/TitleContentElement.prefab
+    - Key: {fileID: 7536618394384120483, guid: c53b5220807354848952c1ea646548d7, type: 3}
+      Value: Packages/com.oramavr.mages.core/Analytics/Resources/UploadingUI.prefab
+    - Key: {fileID: 7733799090598874198, guid: f4ff9cead58754bffbd94bdc6b65092b, type: 3}
+      Value: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileNavigation/MobileNavigation.prefab
+    - Key: {fileID: 5834230795456918307, guid: a2c281ebe21cd4e41b5ee30ff4bb7fff, type: 3}
+      Value: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileRig.prefab
+    - Key: {fileID: 5185069857149048624, guid: d02068aa5e554034f8ee413a3c3ed5bd, type: 3}
+      Value: Packages/com.oramavr.mages.core/DeviceManager/Resources/XRRig.prefab
+    - Key: {fileID: 5372072298147630950, guid: 9df374559aa1ea649b0820651ed0fb9f, type: 3}
+      Value: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerSelectionUI.prefab
+    - Key: {fileID: 3148662123095949296, guid: 3cb4951fa672c9145b64e6d2ee990933, type: 3}
+      Value: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerUI.prefab
+    - Key: {fileID: 7785193196072994261, guid: 755e64b1ee842416badfc0a037a1054f, type: 3}
+      Value: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/RecordingEndUI.prefab
+    - Key: {fileID: 1430317407279671713, guid: b850c40cad8913242b7ba4fa239545ab, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Danger.prefab
+    - Key: {fileID: 1346011915578180909, guid: 0bd2a4f08e1a2524ca8ef72b75db72c3, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Icon.Text.prefab
+    - Key: {fileID: 7677614463250299227, guid: 1b648befc097b954da3d1d1768bf086d, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Primary.prefab
+    - Key: {fileID: 3574608633551011374, guid: 5ddbf546d6dd7074b82b6242079fd82c, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Secondary.prefab
+    - Key: {fileID: 3475523679482472360, guid: 9c162c851ed026a46b10f9a27280f89e, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Canvas.prefab
+    - Key: {fileID: 3718888469642502859, guid: 075db356efe93814f9fdc75b52d6d0ad, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Panel.prefab
+    - Key: {fileID: 4487296756447529692, guid: b0f15961166bffe42a95ec75c0f22768, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Profile.Square.Rounded.prefab
+    - Key: {fileID: 5782666907085049245, guid: 02bab76d203ba7145802a78e5f1535fd, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Rating.Star.prefab
+    - Key: {fileID: 8772852568020096277, guid: ac10010822153294881a1ced4f487b8c, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Sample.prefab
+    - Key: {fileID: 7024950477711102866, guid: d4fd101a4c31a18478e02d875aa271dd, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Slider.prefab
+    - Key: {fileID: 9207162977057184354, guid: 960d71fa92aead346aa27b8ba8f90634, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Spatial/Spatial.LoadingDialog.prefab
+    - Key: {fileID: 7789365791549874749, guid: f67bd0b3f26b93047b60b561bfe1db8b, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/FadeCamera/CameraFadeEffect.prefab
+    - Key: {fileID: 5185069857149048624, guid: 0835d6a0ef594db4c90c4920c33b6cdb, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/MAGES Default
+        Rig.prefab
+    - Key: {fileID: 7801955757403359275, guid: 0b03c6dea8dc357439ad62d0b37d260d, type: 3}
+      Value: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/Style/Prefabs/ArrowGuide.prefab
+    - Key: {fileID: 246808970771327733, guid: 26e855b489b0d5a4fb13b5e6e4204072, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar.prefab
+    - Key: {fileID: 1433642776545535712, guid: 0568731639bd6794394d62bf855b2475, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Female.prefab
+    - Key: {fileID: 1002568939988662636, guid: 13ad544f01600ed4289d6711cba4291a, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Male.prefab
+    - Key: {fileID: 720109609723301597, guid: 85240938ef152414fa3d68b15b5f4c84, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultReticle.prefab
+    - Key: {fileID: 720109609723301597, guid: 49e966361d82e6341976a42f726cd0e7, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultTeleportReticle.prefab
+    - Key: {fileID: 3286612160006147312, guid: 51a4baae548b0464baa0f1129277aded, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorL.prefab
+    - Key: {fileID: 5573111655215791090, guid: 6950715d74b96464ba9ba0e1939eee0e, type: 3}
+      Value: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorR.prefab
+    - Key: {fileID: 9090289161377125936, guid: 255f0448210fda84cbdbf347f4550777, type: 3}
+      Value: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/MessageHandler.prefab
+    - Key: {fileID: 5085592563082224075, guid: 1de0f6670354e314592d9f68727359f2, type: 3}
+      Value: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/Session
+        Progress UI.prefab
+    - Key: {fileID: 5477104182650870502, guid: 365cda6bd1bd5e440a07a6f0b3cc0ec5, type: 3}
+      Value: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/QuestionAction/QuestionTemplate.prefab
+    - Key: {fileID: 9051055463179047410, guid: 894fd0d4418d2084e89ab462937423e7, type: 3}
+      Value: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryLine.prefab
+    - Key: {fileID: 2810783484129916552, guid: f97856d8fee0dda45a8ca60bee2b06d4, type: 3}
+      Value: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryPoint.prefab
+    - Key: {fileID: 4177023108984992685, guid: 13418b8b37a8a8a41ae75b96d59e539e, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/CharacterCustomizationCanvas.prefab
+    - Key: {fileID: 1841169476828792202, guid: 0dd28befdb7714e4db68561757cf5790, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NetworkingUI.prefab
+    - Key: {fileID: 4112277332220563739, guid: e7bf89b1973fcc4479424ebd4635d727, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/AchievementUI.prefab
+    - Key: {fileID: 2089214479290457458, guid: 63617e40730c649fb8e064ff8f6d281b, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/ErrorUI.prefab
+    - Key: {fileID: 996262205017023450, guid: a362ff994c646480689bf1e73d1a69ee, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/InfoUI.prefab
+    - Key: {fileID: 4077535924160438190, guid: f021b350e209448ff8eafe767fad46cc, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/WarningUI.prefab
+    - Key: {fileID: 8492081981966568934, guid: c7569c1535159d34ca0237e3b465ded0, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationExit.prefab
+    - Key: {fileID: 4761865419285331433, guid: c9618dfcfc1b8f84f87b8aa2ba6d94ae, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationStart.prefab
+    - Key: {fileID: 4093989915445669937, guid: 16f14b89c2d43764894381a994f2efe1, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OptionsMenu.prefab
+    - Key: {fileID: 1407360974127994, guid: fa992b1aa12bab242b8246e1d4f98f00, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/SessionButton.prefab
+    - Key: {fileID: 1061030109764770952, guid: 7616b1e881b0c694192f649419c30762, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICreateSession.prefab
+    - Key: {fileID: 1724806685168982, guid: 3bad0f2057b84c04a855152dae193135, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICriticalError.prefab
+    - Key: {fileID: 1300269420715686, guid: f833ffe1bb9e8914cb9de2b9e671a075, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIError.prefab
+    - Key: {fileID: 6444769862356823804, guid: e4e9ea48414fad5468cffe44dab7f43f, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UILicenseRequest.prefab
+    - Key: {fileID: 1621778157797948, guid: 4fc2bd3bd138710488e851c6fd70affb, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UINotification.prefab
+    - Key: {fileID: 1799453332104124, guid: 9488981a7a4c4ea4d8205c2c8032fd0d, type: 3}
+      Value: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIWarning.prefab
+  pathToGameObject:
+    serializedData:
+    - Key: Assets/Resources/Actions/New Action/New Action_FinalPosition.prefab
+      Value: {fileID: 225065192154436742, guid: ba2e877f81ae13c408a532e07de23539, type: 3}
+    - Key: Assets/Resources/Actions/New Action/New Action_InsertObject.prefab
+      Value: {fileID: 3755785643997906370, guid: c1bef6ed652b053428eec151c1d29681, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+      Value: {fileID: 908942595246231463, guid: a361a3293222e28499db2e161eeebd67, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/Cube.prefab
+      Value: {fileID: 3033575757623623128, guid: 3902a40383991d54fbc8143121103016, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/CharacterCustomizationCanvasEmpty.prefab
+      Value: {fileID: 4978528055132887265, guid: fea31c6cbd5f72b4aa69a72f8bf0d9ad, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/NetworkingUIEmpty.prefab
+      Value: {fileID: 3089517475026802293, guid: a96a0359008a97a4591e2e36a661bcdd, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/OperationExitEmpty.prefab
+      Value: {fileID: 4109372207747810125, guid: 83eb887314b6afa42ac27d8d3c079735, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/OperationStartEmpty.prefab
+      Value: {fileID: 7536069314546168663, guid: a3f8676805defc146b499ac64903174d, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/Session
+        Progress UI Empty Scene.prefab
+      Value: {fileID: 2775463711314371571, guid: ead8fc7302d200d49ba634994d26e0b6, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/SessionOverviewEmpty.prefab
+      Value: {fileID: 8698933811779068700, guid: 851a201544c411549a0eee423bfaa909, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/SessionOverviewEmptyScene.prefab
+      Value: {fileID: 8482891306298584424, guid: 9db860b120b44c7419435384247047a0, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/UICreateSessionEmpty.prefab
+      Value: {fileID: 8896514072412807715, guid: 925a0e7d2f0be3b4ea86b863682f6f09, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/UILicenseRequestEmpty
+        Variant.prefab
+      Value: {fileID: 927456759022537861, guid: 2ab1651da1e5b344ca69e71609b408e6, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/Sphere.prefab
+      Value: {fileID: 1712265545480742366, guid: 2f29532ddc09aa24db159404463bdebe, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/AgentSubtitles.prefab
+      Value: {fileID: 9004627945310949098, guid: 8020e62fd55e5e546809f3b2cc669591, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/Embodiment
+        Pharmacist.prefab
+      Value: {fileID: 4743386948377889960, guid: 97853d6cfc44651408bc3d168b73f223, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/InteractionButtons.prefab
+      Value: {fileID: 386611320603512278, guid: 6d9aef72570a0754c86ee69e9b3e88e0, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/UserSubs.prefab
+      Value: {fileID: 8998203555960311489, guid: d156902881002144a994ca66357e759b, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Anesthesia
+        Machine.prefab
+      Value: {fileID: 274834455300494915, guid: f647e0596d0b2f04f8bac5278abf1e48, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Bed.prefab
+      Value: {fileID: 744736389616575715, guid: 69001e7bd43561b47b9b8ac4e0650d38, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Bins.prefab
+      Value: {fileID: 3977466340269936675, guid: 6567c6f48fc92e7418eb4a702690f4ea, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/CameraMonitor.prefab
+      Value: {fileID: 2109615334056787212, guid: 8325721b2c5b34aa58291286cb229054, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Cloths.prefab
+      Value: {fileID: 2321836903883903618, guid: a2c91790bf04ceb41a7b480ebef45803, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Model.prefab
+      Value: {fileID: 4946512929276362326, guid: 6f17acc16a3f5314f8e713856d34e11e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Neuromonitoring
+        Device.prefab
+      Value: {fileID: 2370728055000150416, guid: aa715c5070542d942a26b016a793790b, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/OR
+        Room.prefab
+      Value: {fileID: 3482067835645260641, guid: a19ca16ff3689c94a9a0b2e781c89552, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Thyroid.prefab
+      Value: {fileID: 4932529463223172324, guid: da80cf03e773d164fb7b4bb8b358f9dc, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Tools
+        Table.prefab
+      Value: {fileID: 6646874893661125551, guid: 07120d58b41de4b4a835d367d85e7421, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/TV
+        Stand.prefab
+      Value: {fileID: 6472816218337681979, guid: 3b36b964349749e43a9ff283c9e13ee9, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/CharacterCustomizationCanvasNeuromonitoring.prefab
+      Value: {fileID: 4785021017601545401, guid: 38e178a7031c87449b1f13f0ba2a628f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/MessageHandler
+        Variant.prefab
+      Value: {fileID: 1050945768559797074, guid: 74f6c06942933644b9f932dfa5e882fa, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/NetworkingUINeuromonitoring.prefab
+      Value: {fileID: 4833967582343304180, guid: 6967f6d278699af44995128a068a31e1, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/OperationExitNeuromonitoring.prefab
+      Value: {fileID: 3178385913491038418, guid: c16b3b40e95146f449dcf0ab37194030, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/OperationStartNeuromonitoring.prefab
+      Value: {fileID: 4492104066286569169, guid: 2557b43d804fea24f8d54b92e3d6fb4e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/Session
+        Progress UI.prefab
+      Value: {fileID: 2033874574120215878, guid: 28d6597d32430284bb43338c7c88910c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/SessionButton.prefab
+      Value: {fileID: 3049240401903096141, guid: 52c2731d26fb0234896b85be69b707fb, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/SessionOverviewNeuromonitoring.prefab
+      Value: {fileID: 5758089130870469234, guid: 021fb9832f6d2ce428e3d04f6e4c5125, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/UICreateSessionNeuromonitoring.prefab
+      Value: {fileID: 7996544514617639481, guid: e4b0acd34a4dce34fa03f8e3e136c52b, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/UILicenseRequestNeuromonitoring
+        Variant.prefab
+      Value: {fileID: 4382171837768430930, guid: 795e8426a01f8ed4e8d9877327d9625e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/CervicalIncisionLineFat.prefab
+      Value: {fileID: 3106467328041456279, guid: 6c2b406a3305cd348a2f6fe74bc90ea5, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/CervicalIncisionLineSkin.prefab
+      Value: {fileID: 3652687603687262894, guid: e4c6a01c29fa5ca40ac22067f75db4be, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/ColliderNeckLeftRight.prefab
+      Value: {fileID: 2967921607362357774, guid: 52b77fe12cc7d684682267a673a62300, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/Ghosts/CervicalIncisionFatGhost.prefab
+      Value: {fileID: 8834962208106310673, guid: 7c9e0f2b409da474286d9e3ba90eacbe, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/Ghosts/CervicalIncisionSkinGhost.prefab
+      Value: {fileID: 9082255591674553558, guid: 427cbb1034ac3bd419eb0f233967eb9f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/IncisionPoint.prefab
+      Value: {fileID: 4304539326624782717, guid: 9423eae4eca1b8540bbdd459a2cc5b56, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/Ghosts/SubplatysmalFlapIncisionGhost.prefab
+      Value: {fileID: 869576187184013667, guid: b1e7c7cd1bbe3804584574fe349fbda4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/Retractors.prefab
+      Value: {fileID: 1185499287217697570, guid: d27f457ac1e1bae429d5144e470d9336, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/SubplastimalFlapIncision.prefab
+      Value: {fileID: 4311455448986213648, guid: c1a11b15198713b4b8f935f24d1a95b0, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/Ghosts/MidlineIncisionGhost.prefab
+      Value: {fileID: 442926427273164419, guid: 8e222125c63083e47ae0fb089bc6e86e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/Ghosts/MoveThyroidIncGhost.prefab
+      Value: {fileID: 6618047273808467479, guid: ec6a744c982629d49b55274d224fbb24, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/MidlineIncision.prefab
+      Value: {fileID: 5837668475963317154, guid: 5f55466e36db076478fcdeb62e53e547, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/MoveThyroidIncision.prefab
+      Value: {fileID: 2522567355692836225, guid: b68c8209ace9dd94d851baede4612fd3, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/Ghosts/OpenCarotidSheathGhost.prefab
+      Value: {fileID: 4866848991011600175, guid: 4098e4b8b86a7314f9db101004c9721b, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/IncisionPointSmall.prefab
+      Value: {fileID: 5824571997599722994, guid: 6f4d0c90496b89f4e95fb5f2c6e778ff, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/OpenCarotidSheath.prefab
+      Value: {fileID: 6259627800914656854, guid: 6540bfd56b92c1a48b622ddc59fb2edd, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/Ghosts/NerveDissectionNerveGhost.prefab
+      Value: {fileID: 8376149236662713454, guid: 217166eb7bf693c4daada3cbe78c8d2c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/Ghosts/NerveDissectionVeinGhost.prefab
+      Value: {fileID: 8882882472010278157, guid: 9a1ce5c70a1f10a4eb3bf3335497cce2, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/NerveDissectionNerve.prefab
+      Value: {fileID: 6499904438441535340, guid: 1e53ed247c8b6be40a8c94c80616bc0c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/NerveDissectionVein.prefab
+      Value: {fileID: 250314427978897130, guid: 2e21ad05663dcc44280a3a8429442854, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A6/DissectorFinal.prefab
+      Value: {fileID: 7890472894898043225, guid: d503b650d45846445bca289f3d1b8258, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A6/PutDissectorUnderVagalNerveGhost.prefab
+      Value: {fileID: 7916718058165998299, guid: 796d5b0ab12204472a352ef40fbe5fee, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeDummy.prefab
+      Value: {fileID: 4856596307948927536, guid: 37f95d971e32b31498a3e68d4c5864bf, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeFinal.prefab
+      Value: {fileID: 7547621127353562581, guid: 3592879b5359b1f4ea5abc8b09a5c172, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeInsertionMotion/ElectrodeInsertMotionGhost.prefab
+      Value: {fileID: 1540177806988761400, guid: 1899a80dd682c3647937517cc7a65f74, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeInteractable.prefab
+      Value: {fileID: 1558369533434093067, guid: 93b7d3417dfa3714cb4ba02e191d4b54, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/Floor.prefab
+      Value: {fileID: 3894055870524528594, guid: 2e3ac003cbb9f624bbf6b8c9a7721402, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/Nerve
+        Colliders.prefab
+      Value: {fileID: 5221497364605293871, guid: be7fef17023247b4c8080db001ff34f5, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Anatomical
+        Forceps/Anatomical Forceps.prefab
+      Value: {fileID: 3758902012534190580, guid: 1c55a6dc4dfb0d347a38fed103ea3456, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Bipolar/Bipolar.prefab
+      Value: {fileID: 5119610509586384834, guid: be8cefe75aeda504483e2f1bde4d3836, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Dissector/Dissector.prefab
+      Value: {fileID: 8478563564662122156, guid: 6411a072fafe3154e972d66a9ddb84e6, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Electrode/Electrode.prefab
+      Value: {fileID: 4290284821930743728, guid: a076bc9d56e640547be1635667d0bf13, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Ligasure/Ligasure.prefab
+      Value: {fileID: 7094279836168780611, guid: def8247e8eaab254483c076ad43a46e7, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Monopolar/Monopolar.prefab
+      Value: {fileID: 3120486536624300502, guid: e8e991cf6f525a5449b85243a93db29e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Scalpel/Scalpel.prefab
+      Value: {fileID: 1745903936454484607, guid: 0847f0a2152a9be44bbf70c624e3f71a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Scissor/Scissor.prefab
+      Value: {fileID: 2696498493535581949, guid: 1e0284041cb858c4a86b1e6681bf3f54, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Bed/Bed.prefab
+      Value: {fileID: 2628784455713558752, guid: c43fb0affeaa19d4895c8b1638098374, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Bed/Neuromonitoring_Bed.fbx
+      Value: {fileID: 919132149155446097, guid: 838a33c639b24184fa43b5e9732b496c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Cloths/Neuromonitoring_Cloths.fbx
+      Value: {fileID: 919132149155446097, guid: 57165309ea8481c4097729ed5090fcb0, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Anesthesia/Anesthesia
+        Machine.prefab
+      Value: {fileID: 859781037738657336, guid: 2368c57d3e3dc3744961d16049884065, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Anesthesia/Neuromonitoring_Anesthesia.fbx
+      Value: {fileID: 919132149155446097, guid: 2c4c24379cb075b48924a4cf1bd75734, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Neuromonitoring/neuromonitoring_device.fbx
+      Value: {fileID: 919132149155446097, guid: 30a6b6f2efd88e44cb7ea115e13c72bf, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Neuromonitoring/neuromonitoring_device.prefab
+      Value: {fileID: 9117576686298392004, guid: 61d233a960bfcf645a4053827b73d76c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Bins/Bins.FBX
+      Value: {fileID: 919132149155446097, guid: 5b72391a7a2f55d42b2118bdce6eaaf1, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/Ceiling Lamp.prefab
+      Value: {fileID: 6149354378354043843, guid: a4eb8f88aa0bba3419a971a3083da8b3, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/ceiling_lamp.fbx
+      Value: {fileID: 919132149155446097, guid: 712d201c9376e1b48917380a90bbc227, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/LampsBloom/Lamps Bloom.prefab
+      Value: {fileID: 1803116528797123722, guid: 5073f9085f9cc3a408dd35ab2b983ecc, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Screen/CameraMonitor.prefab
+      Value: {fileID: 4480446767556282789, guid: 23696861c744db44ba7ef04e03ed222c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Screen/ceiling_screen.fbx
+      Value: {fileID: 919132149155446097, guid: 55aa2a51d602bb544b8bfcea2c098fb4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Saline
+        Stand/saline stand.fbx
+      Value: {fileID: 919132149155446097, guid: 032f11cebf8f12c47a0a66f5b6a766a0, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Saline
+        Stand/saline stand.prefab
+      Value: {fileID: 7354347938907152422, guid: cc218f808d6cf094e9473f27d20667d2, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/ToolTable/ToolTable.fbx
+      Value: {fileID: 919132149155446097, guid: d99597f64ce62934881da8f915eb365e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Pharmacist/Jaria.fbx
+      Value: {fileID: 919132149155446097, guid: 5f3b5a73267636e42bf0c6a86f9d1430, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Pharmacist/VickyMask.prefab
+      Value: {fileID: 2271095568271594960, guid: aabfcfd94873643d99f2ca5b94e11a54, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Room/ORRoom_Edit.fbx
+      Value: {fileID: 919132149155446097, guid: 555875bc04e99d14b83fbab5c42edffe, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Thyroidectomy/Thyroidectomy_Demo.fbx
+      Value: {fileID: 919132149155446097, guid: 25596c47e24387b42b907638fac6593f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Thyroidectomy/Thyroidectomy_Demo.prefab
+      Value: {fileID: 4444822991818829087, guid: dda25c42fff5a374d92853c974e50580, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Anatomical
+        Forceps/anatomical forceps.fbx
+      Value: {fileID: 919132149155446097, guid: 304c7a96e6eb16148931c670a44fbec8, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Bipolar/Bipolar.fbx
+      Value: {fileID: 919132149155446097, guid: 5522251be74ce1144bbef4b89eeb003a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Dissector/Dissector.fbx
+      Value: {fileID: 919132149155446097, guid: fea2ae735d4a0c247a2422e329e9d31d, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Electrode/electrode
+        static/electrode static.fbx
+      Value: {fileID: 919132149155446097, guid: 96d9a4dd8fd62cc4d9dc9339510c0afb, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Electrode/Electrode.fbx
+      Value: {fileID: 919132149155446097, guid: 44b4abe3fc7a86d42959635af82668f8, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Ligasure/Ligasure.fbx
+      Value: {fileID: 919132149155446097, guid: 3bd9fa76b1d683a4e924f6c419b8e19f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Monopolar/Monopolar.fbx
+      Value: {fileID: 919132149155446097, guid: 5a33ccc244a5bff4e939d4d0613663b2, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Retractor/Retractor.fbx
+      Value: {fileID: 919132149155446097, guid: a855538333ba5f648a0914dc5bc28422, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scalpel/Scalpel.fbx
+      Value: {fileID: 919132149155446097, guid: 0073dd6107330f245aacd589fc1488cd, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scalpel/Scalpel.prefab
+      Value: {fileID: 8624499381459777109, guid: 06b0a6ad3384ab64dbe3af11a3f1692f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scissor/Scissor.fbx
+      Value: {fileID: 919132149155446097, guid: f5f1afbdf53764f4e8fadf14f89c5ef4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/TV/TV_stand.fbx
+      Value: {fileID: 919132149155446097, guid: c8e109cfe57f86a4181cc9099180ffa3, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+      Value: {fileID: 1050945768559797074, guid: b2718303e696afb4a9b79fd28da2d2a8, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Alcohol_Bottle/Alcohol_Bottle.prefab
+      Value: {fileID: 4461789498622482572, guid: 214f32cebf2941a45be83ac5ea8160ef, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Alcohol_Spray/Alcohol_Spray.prefab
+      Value: {fileID: 2663334325131598747, guid: 128bc55980bc2644a97fe5bc205ea02e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/BinArea/BinArea.prefab
+      Value: {fileID: 8151967033735030569, guid: b7c6043b6b1aa0d43ac7c3329ef5b890, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ChoiceUI.prefab
+      Value: {fileID: 5029598878369790566, guid: 67ea4c8f7702408468661a1781998541, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/PliersCotton.prefab
+      Value: {fileID: 2703683730839687794, guid: 50c425b866ac9f2449e7c24720181685, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelFinal.prefab
+      Value: {fileID: 2647042785146455674, guid: be56c30b28a6f9b4ab5118912d77f46e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelGhost.prefab
+      Value: {fileID: 1443599125608375782, guid: 0d1928f900b789c45a0cf275ea50444a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/SterilizeAreaCollider.prefab
+      Value: {fileID: 7288135389853464270, guid: 8ce959eeb23c9de4aa83a0789159fa88, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Cotton_Ball/Cotton_Ball.prefab
+      Value: {fileID: 6811890992725081840, guid: 2d19969147df51a499fe3cd13ddb040b, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Cupboards/HandPoses/Cupboard.prefab
+      Value: {fileID: 4675479889605947690, guid: f59dabde098374045b184073686ff8e6, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/DisinfectArea/DisinfectArmColldier.prefab
+      Value: {fileID: 5334127861141958002, guid: 668f16e2d3bf3d143a296dbd56bc6b76, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/CutLine.prefab
+      Value: {fileID: 8039857778618746083, guid: e1765c35a92cf464c9959d7ba1498552, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/Scalpel.prefab
+      Value: {fileID: 7833148477243739317, guid: 5f882da6271bad54784a066ead6e34e4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FloorCollider.prefab
+      Value: {fileID: 3765945099689444981, guid: 5d363e2a0bab66f4584722d7efd02201, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/CharacterCustomizationCanvasMedical.prefab
+      Value: {fileID: 4177023108984992685, guid: ceac3ce2e2eb35745bfa7298cb49236a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/NetworkingUIMedical.prefab
+      Value: {fileID: 7585984475247021264, guid: 2a59910a6dfe4684eaff94009a5f4620, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/OperationExitMedical.prefab
+      Value: {fileID: 8492081981966568934, guid: 80be6f865405a3c4ab211bd19c26cdd8, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/OperationStartMedical.prefab
+      Value: {fileID: 6806514524355455648, guid: 212eb4c57a8af914c8c64d215ad64056, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/PlayerSelectionUI
+        Variant.prefab
+      Value: {fileID: 3037877771287912141, guid: 4cd6f56b9d0ee74419f0a18c50343d16, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/SessionOverviewMedical.prefab
+      Value: {fileID: 3690071554826833225, guid: d3da0a1c18b1aaa4996425660f6dc663, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/UICreateSessionMedical.prefab
+      Value: {fileID: 1061030109764770952, guid: 6b78343f46d576e44ae174a3c020e61e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/UILicenseRequestMedical
+        Variant.prefab
+      Value: {fileID: 3887150759044816649, guid: 5ff7919668ec3594b9bf11d50ad992b4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Medicine_Bottle/Medicine_Bottle.prefab
+      Value: {fileID: 4607341748483080585, guid: bd177487123c5e84bbb9c3df6e71421d, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/SmallTray/Tray.prefab
+      Value: {fileID: 8348530338071273550, guid: fcfc76b1b36f2c9449beb531b560a314, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeAdminister.prefab
+      Value: {fileID: 8919781291093236745, guid: 80a4e740ebf83d848a3e11920a919a1c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeFinal.prefab
+      Value: {fileID: 8782387715358882742, guid: 6f9e4579a9c818346ae420b92a5061cf, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeInteractable.prefab
+      Value: {fileID: 4821283478671805728, guid: 435aa8ea7776f7d4fa1f9a9d9ab3f116, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/TV_Stand.prefab
+      Value: {fileID: 4044804350837727676, guid: ccc56b4a32cb1a94196d31d41638fd36, type: 3}
+    - Key: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+      Value: {fileID: 919132149155446097, guid: 9e1c97fc44f9a8744b61b58f72c56de4, type: 3}
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
+      Value: {fileID: 1153602445894428, guid: cf6cbdd672089a84796e55a21fed1cbe, type: 3}
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab
+      Value: {fileID: 1822588063230394, guid: f6b1a0fe75d5009449cf55ae76220e2b, type: 3}
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+      Value: {fileID: 919132149155446097, guid: 39857cfad1651644682ff5b772e6e697, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/BodyTitleContentElement.prefab
+      Value: {fileID: 7918437720397152765, guid: cf30a5f67c570a544b4a378d2853c6f1, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ContentElement.prefab
+      Value: {fileID: 4387796791817745772, guid: c7fedcf735aceb7409af04a4a2e88a6a, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/MainBodyExtension.prefab
+      Value: {fileID: 7647174366928024817, guid: d7cf3cb20981ddb4fba9215a72500342, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ObjectiveContentElement.prefab
+      Value: {fileID: 6308268119750500836, guid: a890431e34b61fd4fbec937509b0ae6e, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScoringContentElement.prefab
+      Value: {fileID: 9193793702781515264, guid: 96dda1ee8a558f840999e4af5e617dcb, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScrollButton.prefab
+      Value: {fileID: 388323136796710587, guid: 5125c1c132c55d94291b873fba9fca8f, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/SessionOverview.prefab
+      Value: {fileID: 8730845616018260060, guid: d0028272aad4fa74ba9935f92d4826b3, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/TitleContentElement.prefab
+      Value: {fileID: 7351949962191370175, guid: d6b912a571846fa4591b3d412fbbcb2b, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/UploadingUI.prefab
+      Value: {fileID: 7536618394384120483, guid: c53b5220807354848952c1ea646548d7, type: 3}
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileNavigation/MobileNavigation.prefab
+      Value: {fileID: 7733799090598874198, guid: f4ff9cead58754bffbd94bdc6b65092b, type: 3}
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileRig.prefab
+      Value: {fileID: 5834230795456918307, guid: a2c281ebe21cd4e41b5ee30ff4bb7fff, type: 3}
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/XRRig.prefab
+      Value: {fileID: 5185069857149048624, guid: d02068aa5e554034f8ee413a3c3ed5bd, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerSelectionUI.prefab
+      Value: {fileID: 5372072298147630950, guid: 9df374559aa1ea649b0820651ed0fb9f, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerUI.prefab
+      Value: {fileID: 3148662123095949296, guid: 3cb4951fa672c9145b64e6d2ee990933, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/RecordingEndUI.prefab
+      Value: {fileID: 7785193196072994261, guid: 755e64b1ee842416badfc0a037a1054f, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Danger.prefab
+      Value: {fileID: 1430317407279671713, guid: b850c40cad8913242b7ba4fa239545ab, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Icon.Text.prefab
+      Value: {fileID: 1346011915578180909, guid: 0bd2a4f08e1a2524ca8ef72b75db72c3, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Primary.prefab
+      Value: {fileID: 7677614463250299227, guid: 1b648befc097b954da3d1d1768bf086d, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Secondary.prefab
+      Value: {fileID: 3574608633551011374, guid: 5ddbf546d6dd7074b82b6242079fd82c, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Canvas.prefab
+      Value: {fileID: 3475523679482472360, guid: 9c162c851ed026a46b10f9a27280f89e, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Panel.prefab
+      Value: {fileID: 3718888469642502859, guid: 075db356efe93814f9fdc75b52d6d0ad, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Profile.Square.Rounded.prefab
+      Value: {fileID: 4487296756447529692, guid: b0f15961166bffe42a95ec75c0f22768, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Rating.Star.prefab
+      Value: {fileID: 5782666907085049245, guid: 02bab76d203ba7145802a78e5f1535fd, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Sample.prefab
+      Value: {fileID: 8772852568020096277, guid: ac10010822153294881a1ced4f487b8c, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Slider.prefab
+      Value: {fileID: 7024950477711102866, guid: d4fd101a4c31a18478e02d875aa271dd, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Spatial/Spatial.LoadingDialog.prefab
+      Value: {fileID: 9207162977057184354, guid: 960d71fa92aead346aa27b8ba8f90634, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/FadeCamera/CameraFadeEffect.prefab
+      Value: {fileID: 7789365791549874749, guid: f67bd0b3f26b93047b60b561bfe1db8b, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/MAGES Default Rig.prefab
+      Value: {fileID: 5185069857149048624, guid: 0835d6a0ef594db4c90c4920c33b6cdb, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/Style/Prefabs/ArrowGuide.prefab
+      Value: {fileID: 7801955757403359275, guid: 0b03c6dea8dc357439ad62d0b37d260d, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar.prefab
+      Value: {fileID: 246808970771327733, guid: 26e855b489b0d5a4fb13b5e6e4204072, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Female.prefab
+      Value: {fileID: 1433642776545535712, guid: 0568731639bd6794394d62bf855b2475, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Male.prefab
+      Value: {fileID: 1002568939988662636, guid: 13ad544f01600ed4289d6711cba4291a, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultReticle.prefab
+      Value: {fileID: 720109609723301597, guid: 85240938ef152414fa3d68b15b5f4c84, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultTeleportReticle.prefab
+      Value: {fileID: 720109609723301597, guid: 49e966361d82e6341976a42f726cd0e7, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorL.prefab
+      Value: {fileID: 3286612160006147312, guid: 51a4baae548b0464baa0f1129277aded, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorR.prefab
+      Value: {fileID: 5573111655215791090, guid: 6950715d74b96464ba9ba0e1939eee0e, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/MessageHandler.prefab
+      Value: {fileID: 9090289161377125936, guid: 255f0448210fda84cbdbf347f4550777, type: 3}
+    - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/Session Progress
+        UI.prefab
+      Value: {fileID: 5085592563082224075, guid: 1de0f6670354e314592d9f68727359f2, type: 3}
+    - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/QuestionAction/QuestionTemplate.prefab
+      Value: {fileID: 5477104182650870502, guid: 365cda6bd1bd5e440a07a6f0b3cc0ec5, type: 3}
+    - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryLine.prefab
+      Value: {fileID: 9051055463179047410, guid: 894fd0d4418d2084e89ab462937423e7, type: 3}
+    - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryPoint.prefab
+      Value: {fileID: 2810783484129916552, guid: f97856d8fee0dda45a8ca60bee2b06d4, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/CharacterCustomizationCanvas.prefab
+      Value: {fileID: 4177023108984992685, guid: 13418b8b37a8a8a41ae75b96d59e539e, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NetworkingUI.prefab
+      Value: {fileID: 1841169476828792202, guid: 0dd28befdb7714e4db68561757cf5790, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/AchievementUI.prefab
+      Value: {fileID: 4112277332220563739, guid: e7bf89b1973fcc4479424ebd4635d727, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/ErrorUI.prefab
+      Value: {fileID: 2089214479290457458, guid: 63617e40730c649fb8e064ff8f6d281b, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/InfoUI.prefab
+      Value: {fileID: 996262205017023450, guid: a362ff994c646480689bf1e73d1a69ee, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/WarningUI.prefab
+      Value: {fileID: 4077535924160438190, guid: f021b350e209448ff8eafe767fad46cc, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationExit.prefab
+      Value: {fileID: 8492081981966568934, guid: c7569c1535159d34ca0237e3b465ded0, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationStart.prefab
+      Value: {fileID: 4761865419285331433, guid: c9618dfcfc1b8f84f87b8aa2ba6d94ae, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OptionsMenu.prefab
+      Value: {fileID: 4093989915445669937, guid: 16f14b89c2d43764894381a994f2efe1, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/SessionButton.prefab
+      Value: {fileID: 1407360974127994, guid: fa992b1aa12bab242b8246e1d4f98f00, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICreateSession.prefab
+      Value: {fileID: 1061030109764770952, guid: 7616b1e881b0c694192f649419c30762, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICriticalError.prefab
+      Value: {fileID: 1724806685168982, guid: 3bad0f2057b84c04a855152dae193135, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIError.prefab
+      Value: {fileID: 1300269420715686, guid: f833ffe1bb9e8914cb9de2b9e671a075, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UILicenseRequest.prefab
+      Value: {fileID: 6444769862356823804, guid: e4e9ea48414fad5468cffe44dab7f43f, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UINotification.prefab
+      Value: {fileID: 1621778157797948, guid: 4fc2bd3bd138710488e851c6fd70affb, type: 3}
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIWarning.prefab
+      Value: {fileID: 1799453332104124, guid: 9488981a7a4c4ea4d8205c2c8032fd0d, type: 3}
+  pathToPrefabID:
+    serializedData:
+    - Key: Assets/Resources/Actions/New Action/New Action_FinalPosition.prefab
+      Value: 16304
+    - Key: Assets/Resources/Actions/New Action/New Action_InsertObject.prefab
+      Value: 16306
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+      Value: 16282
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/Cube.prefab
+      Value: 16276
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/CharacterCustomizationCanvasEmpty.prefab
+      Value: 16274
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/NetworkingUIEmpty.prefab
+      Value: 16294
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/OperationExitEmpty.prefab
+      Value: 16278
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/OperationStartEmpty.prefab
+      Value: 16288
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/Session
+        Progress UI Empty Scene.prefab
+      Value: 16296
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/SessionOverviewEmpty.prefab
+      Value: 16286
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/SessionOverviewEmptyScene.prefab
+      Value: 16284
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/UICreateSessionEmpty.prefab
+      Value: 16290
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/General/UILicenseRequestEmpty
+        Variant.prefab
+      Value: 16280
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Empty Scene/Resources/Prefabs/Sphere.prefab
+      Value: 16292
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/AgentSubtitles.prefab
+      Value: 56894
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/Embodiment
+        Pharmacist.prefab
+      Value: 67628
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/InteractionButtons.prefab
+      Value: 56892
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Agent/UserSubs.prefab
+      Value: 56888
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Anesthesia
+        Machine.prefab
+      Value: 67608
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Bed.prefab
+      Value: 67610
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Bins.prefab
+      Value: 67612
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/CameraMonitor.prefab
+      Value: 67524
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Cloths.prefab
+      Value: 67626
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Model.prefab
+      Value: 66282
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Neuromonitoring
+        Device.prefab
+      Value: 67586
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/OR
+        Room.prefab
+      Value: 67622
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Thyroid.prefab
+      Value: 67584
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/Tools
+        Table.prefab
+      Value: 67624
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Generic/TV
+        Stand.prefab
+      Value: 67516
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/CharacterCustomizationCanvasNeuromonitoring.prefab
+      Value: 56868
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/MessageHandler
+        Variant.prefab
+      Value: 56904
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/NetworkingUINeuromonitoring.prefab
+      Value: 61448
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/OperationExitNeuromonitoring.prefab
+      Value: 56832
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/OperationStartNeuromonitoring.prefab
+      Value: 56866
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/Session
+        Progress UI.prefab
+      Value: 56906
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/SessionButton.prefab
+      Value: 67514
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/SessionOverviewNeuromonitoring.prefab
+      Value: 56994
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/UICreateSessionNeuromonitoring.prefab
+      Value: 64840
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A0/UILicenseRequestNeuromonitoring
+        Variant.prefab
+      Value: 57052
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/CervicalIncisionLineFat.prefab
+      Value: 56848
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/CervicalIncisionLineSkin.prefab
+      Value: 56854
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/ColliderNeckLeftRight.prefab
+      Value: 56918
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/Ghosts/CervicalIncisionFatGhost.prefab
+      Value: 56850
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/Ghosts/CervicalIncisionSkinGhost.prefab
+      Value: 56856
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A1/IncisionPoint.prefab
+      Value: 58210
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/Ghosts/SubplatysmalFlapIncisionGhost.prefab
+      Value: 56840
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/Retractors.prefab
+      Value: 56842
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A2/SubplastimalFlapIncision.prefab
+      Value: 56838
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/Ghosts/MidlineIncisionGhost.prefab
+      Value: 56830
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/Ghosts/MoveThyroidIncGhost.prefab
+      Value: 56814
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/MidlineIncision.prefab
+      Value: 56828
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A3/MoveThyroidIncision.prefab
+      Value: 56812
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/Ghosts/OpenCarotidSheathGhost.prefab
+      Value: 56800
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/IncisionPointSmall.prefab
+      Value: 61568
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A4/OpenCarotidSheath.prefab
+      Value: 56798
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/Ghosts/NerveDissectionNerveGhost.prefab
+      Value: 56788
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/Ghosts/NerveDissectionVeinGhost.prefab
+      Value: 56794
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/NerveDissectionNerve.prefab
+      Value: 56786
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A5/NerveDissectionVein.prefab
+      Value: 56792
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A6/DissectorFinal.prefab
+      Value: 56804
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A6/PutDissectorUnderVagalNerveGhost.prefab
+      Value: 56806
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeDummy.prefab
+      Value: 56822
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeFinal.prefab
+      Value: 56820
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeInsertionMotion/ElectrodeInsertMotionGhost.prefab
+      Value: 56824
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/ElectrodeInteractable.prefab
+      Value: 56818
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/Floor.prefab
+      Value: 56972
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/A7/Nerve
+        Colliders.prefab
+      Value: 67548
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Anatomical
+        Forceps/Anatomical Forceps.prefab
+      Value: 56858
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Bipolar/Bipolar.prefab
+      Value: 56860
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Dissector/Dissector.prefab
+      Value: 56784
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Electrode/Electrode.prefab
+      Value: 56862
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Ligasure/Ligasure.prefab
+      Value: 56836
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Monopolar/Monopolar.prefab
+      Value: 56864
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Scalpel/Scalpel.prefab
+      Value: 56846
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Prefabs/Tools/Scissor/Scissor.prefab
+      Value: 56810
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Bed/Bed.prefab
+      Value: 67646
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Bed/Neuromonitoring_Bed.fbx
+      Value: 64150
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Cloths/Neuromonitoring_Cloths.fbx
+      Value: 59452
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Anesthesia/Anesthesia
+        Machine.prefab
+      Value: 67522
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Anesthesia/Neuromonitoring_Anesthesia.fbx
+      Value: 59712
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Neuromonitoring/neuromonitoring_device.fbx
+      Value: 57496
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Machines/Neuromonitoring/neuromonitoring_device.prefab
+      Value: 65254
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Bins/Bins.FBX
+      Value: 61628
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/Ceiling Lamp.prefab
+      Value: 67592
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/ceiling_lamp.fbx
+      Value: 67486
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Lamps/LampsBloom/Lamps Bloom.prefab
+      Value: 67546
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Screen/CameraMonitor.prefab
+      Value: 67532
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Ceiling
+        Screen/ceiling_screen.fbx
+      Value: 59828
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Saline
+        Stand/saline stand.fbx
+      Value: 66584
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/Saline
+        Stand/saline stand.prefab
+      Value: 67518
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Objects/ToolTable/ToolTable.fbx
+      Value: 62148
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Pharmacist/Jaria.fbx
+      Value: 67512
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Pharmacist/VickyMask.prefab
+      Value: 62778
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Room/ORRoom_Edit.fbx
+      Value: 57816
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Thyroidectomy/Thyroidectomy_Demo.fbx
+      Value: 65592
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Thyroidectomy/Thyroidectomy_Demo.prefab
+      Value: 67594
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Anatomical
+        Forceps/anatomical forceps.fbx
+      Value: 67484
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Bipolar/Bipolar.fbx
+      Value: 67494
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Dissector/Dissector.fbx
+      Value: 67502
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Electrode/electrode
+        static/electrode static.fbx
+      Value: 67498
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Electrode/Electrode.fbx
+      Value: 67496
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Ligasure/Ligasure.fbx
+      Value: 67478
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Monopolar/Monopolar.fbx
+      Value: 67474
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Retractor/Retractor.fbx
+      Value: 67480
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scalpel/Scalpel.fbx
+      Value: 61700
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scalpel/Scalpel.prefab
+      Value: 67644
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/Tools/Scissor/Scissor.fbx
+      Value: 67490
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Neuromonitoring Scene/Resources/Raw/Models/TV/TV_stand.fbx
+      Value: 67504
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+      Value: 17214
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Alcohol_Bottle/Alcohol_Bottle.prefab
+      Value: 17186
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Alcohol_Spray/Alcohol_Spray.prefab
+      Value: 17188
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/BinArea/BinArea.prefab
+      Value: 17206
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ChoiceUI.prefab
+      Value: 17258
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/PliersCotton.prefab
+      Value: 17202
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelFinal.prefab
+      Value: 17192
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelGhost.prefab
+      Value: 17250
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/ChoiceUI/SterilizeAreaCollider.prefab
+      Value: 17204
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Cotton_Ball/Cotton_Ball.prefab
+      Value: 17146
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Cupboards/HandPoses/Cupboard.prefab
+      Value: 17164
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/DisinfectArea/DisinfectArmColldier.prefab
+      Value: 17190
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/CutLine.prefab
+      Value: 17268
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/Scalpel.prefab
+      Value: 17224
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/FloorCollider.prefab
+      Value: 17132
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/CharacterCustomizationCanvasMedical.prefab
+      Value: 17260
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/NetworkingUIMedical.prefab
+      Value: 17266
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/OperationExitMedical.prefab
+      Value: 17144
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/OperationStartMedical.prefab
+      Value: 17264
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/PlayerSelectionUI
+        Variant.prefab
+      Value: 17172
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/SessionOverviewMedical.prefab
+      Value: 17160
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/UICreateSessionMedical.prefab
+      Value: 17182
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/General/UILicenseRequestMedical
+        Variant.prefab
+      Value: 17170
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Medicine_Bottle/Medicine_Bottle.prefab
+      Value: 17136
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/SmallTray/Tray.prefab
+      Value: 17114
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeAdminister.prefab
+      Value: 17156
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeFinal.prefab
+      Value: 17236
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/Syringe/SyringeInteractable.prefab
+      Value: 17242
+    - Key: Assets/Samples/MAGES SDK - Core/5.3.5/Vaccine Scene/Resources/Prefabs/TV_Stand.prefab
+      Value: 17180
+    - Key: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+      Value: 16574
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
+      Value: 17108
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab
+      Value: 17110
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+      Value: 141302
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/BodyTitleContentElement.prefab
+      Value: 16252
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ContentElement.prefab
+      Value: 16264
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/MainBodyExtension.prefab
+      Value: 16258
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ObjectiveContentElement.prefab
+      Value: 16256
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScoringContentElement.prefab
+      Value: 16266
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScrollButton.prefab
+      Value: 16246
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/SessionOverview.prefab
+      Value: 16262
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/TitleContentElement.prefab
+      Value: 16250
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/UploadingUI.prefab
+      Value: 16254
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileNavigation/MobileNavigation.prefab
+      Value: 17348
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileRig.prefab
+      Value: 17350
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/XRRig.prefab
+      Value: 17282
+    - Key: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerSelectionUI.prefab
+      Value: 17476
+    - Key: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerUI.prefab
+      Value: 17474
+    - Key: Packages/com.oramavr.mages.core/Extra/Recorder/Runtime/Resources/MAGES.Recorder/UI/RecordingEndUI.prefab
+      Value: 17478
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Danger.prefab
+      Value: 17358
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Icon.Text.prefab
+      Value: 17356
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Primary.prefab
+      Value: 17366
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Secondary.prefab
+      Value: 17360
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Canvas.prefab
+      Value: 17362
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Panel.prefab
+      Value: 17368
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Profile.Square.Rounded.prefab
+      Value: 17370
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Rating.Star.prefab
+      Value: 17364
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Sample.prefab
+      Value: 17372
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Slider.prefab
+      Value: 17374
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Spatial/Spatial.LoadingDialog.prefab
+      Value: 17376
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/FadeCamera/CameraFadeEffect.prefab
+      Value: 16224
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/MAGES Default Rig.prefab
+      Value: 16218
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/Style/Prefabs/ArrowGuide.prefab
+      Value: 16238
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar.prefab
+      Value: 17434
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Female.prefab
+      Value: 17416
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Male.prefab
+      Value: 17432
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultReticle.prefab
+      Value: 17402
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultTeleportReticle.prefab
+      Value: 17408
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorL.prefab
+      Value: 17438
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorR.prefab
+      Value: 17406
+    - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/MessageHandler.prefab
+      Value: 17038
+    - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/Session Progress
+        UI.prefab
+      Value: 17040
+    - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/QuestionAction/QuestionTemplate.prefab
+      Value: 17386
+    - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryLine.prefab
+      Value: 17384
+    - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryPoint.prefab
+      Value: 17380
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/CharacterCustomizationCanvas.prefab
+      Value: 17020
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NetworkingUI.prefab
+      Value: 17036
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/AchievementUI.prefab
+      Value: 16620
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/ErrorUI.prefab
+      Value: 16880
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/InfoUI.prefab
+      Value: 16828
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/WarningUI.prefab
+      Value: 17026
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationExit.prefab
+      Value: 16694
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationStart.prefab
+      Value: 16914
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OptionsMenu.prefab
+      Value: 16602
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/SessionButton.prefab
+      Value: 16840
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICreateSession.prefab
+      Value: 16984
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICriticalError.prefab
+      Value: 16924
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIError.prefab
+      Value: 16866
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UILicenseRequest.prefab
+      Value: 16798
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UINotification.prefab
+      Value: 16744
+    - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIWarning.prefab
+      Value: 16956
